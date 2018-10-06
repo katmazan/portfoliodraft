@@ -1,14 +1,69 @@
-body{
-    background-color:#CDD5E8;
-}
 
+    .grid-container {
+	  display: grid;
+	  color: black;
+      grid-template-columns: 200px auto auto;
+      grid-gap: 10px;
+      
+      padding: 10px;
+    }
+    .grid-container > div {
+      
+	  text-align: center;
+	  text-justify: center;
+	  align-self: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+	.grid-container > .par {
+		align-self: left;
+		padding-left: 300px;
+		text-align: left;
+		
+	}
+
+body{
+	font-family: 'Alegreya Sans', sans-serif;
+	align-self: left;
+}
+a{
+	text-decoration: none;
+	color: black
+}
+a:hover{
+	text-decoration: underline
+}
 li{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 15px;
 	text-decoration: none;
 	display:block;
-	background-color: whitesmoke;
-	color: rgb(102, 56, 56);
+	text-align: left;
+	color:black;
+	margin:15px
 }
-
-
-
-
+h1{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 30px;
+	color: #A1A4E8;
+}
+h2{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 50px;
+	color: white;
+	
+}
+i{
+	color: #A1A4E8;
+	
+}
+.centerpiece{
+	background-image: url("../images/koreaimg2.jpg");
+	background-repeat: none;
+	background-size: auto;
+	padding: 25px;
+}
+p{
+	font-size: 15px;
+	
+}
