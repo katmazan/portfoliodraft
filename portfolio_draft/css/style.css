@@ -57,6 +57,12 @@ i{
 	color: #A1A4E8;
 	
 }
+navi{
+	color: #A1A4E8;
+	font-size: 25px;
+	padding-top: 45px;
+	padding-left: 100px;
+}
 .centerpiece{
 	background-image: url("../images/koreaimg2.jpg");
 	background-repeat: none;
@@ -66,4 +72,60 @@ i{
 p{
 	font-size: 15px;
 	
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 100px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #A1A4E8;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: black;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+	.centerpiece{padding:0;}
+}
+
+@media only screen and (max-device-width: 380px) {
+	.mobile_device_380px{display: block; color:black;}       
+	.desktop {display: none;}
+} 
+
+/* if mobile device max width 480px */
+@media only screen and (max-device-width: 480px) {
+   .mobile_device_480px{display: block;}
+   .desktop {display: none;}
 }

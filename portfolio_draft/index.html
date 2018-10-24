@@ -10,10 +10,31 @@
 
 
 <body>
+        <script>
+                /* Set the width of the side navigation to 250px */
+       function openNav() {
+           document.getElementById("mySidenav").style.width = "250px";
+       }
+       
+       /* Set the width of the side navigation to 0 */
+       function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+       }
+       </script>
 <div class = 'grid-container'>
-    <div>
-        
-    </div>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href= index.html>Home</a>
+                <a href= about.html>About Me</a>
+                <a href= koreanmall.html>Koreanmall</a>
+                <a href= dining.html>Michigan Dining App</a>
+                <a href= esports.html>Women in Esports Infographic</a>
+              </div>
+              
+              <!-- Use any element to open the sidenav -->
+              <span onclick="openNav()"><navi class="fas fa-bars"></navi></span>
+              
+             
     <div>
         
         <h1>
@@ -30,15 +51,7 @@
         </a>
     </div>
     <div>
-            <nav>
-                    <ul>
-                        <li><a href= index.html>Home</a></li>
-                        <li> <a href= about.html>About Me</a></li>
-                        <li><a href= koreanmall.html>Koreanmall</a></li>
-                        <li><a href= dining.html>Michigan Dining App</a></li>
-                        <li><a href= esports.html>Women in Esports Infographic</a></li>
-                    </ul>
-                </nav>
+            
     </div>
         <div class = "centerpiece">
         <h2>
@@ -50,6 +63,14 @@
     
 
 </div>
-
+    
+<div class="mobile_device_380px">
+            <!-- content and some markups for mobile -->
+</div>
+    
+<div class="mobile_device_480px">
+     <!-- content and some markups for mobile -->
+</div>
+</div>
 </body>
 </html>
