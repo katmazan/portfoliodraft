@@ -35,42 +35,35 @@
             document.getElementById("mySidenav").style.width = "0";
         }
     </script>
-    <header>
+   <header>
     <a class="skip-main" href=".main">Skip to main content</a>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href=index.html>Home</a>
-        <a href=about.html>About Me</a>
-        <a href=koreanmall.html>Koreanmall</a>
-        <a class='currentpage' href=dining.html>Michigan Dining App</a>
-        <a href=esports.html>Women in Esports Infographic</a>
-    </div>
-    <div class="scrollingText">
-        <p class="main" id = "hide">During my Winter 2018 semester I was paired with a group of other students to analyze the usability of the Dining
-            portion of the Michigan App. Throughout this process we conducted user tests and interviews, administered surveys,
-            and created user personas to identify the key problems with the Dining App. In the end we focused on the lack
-            of fluidity in the application and conducted A/B testing on the Location aspect using paper prototypes that tested
-            the ability for users to decide if they wanted to leave the Michigan App to go to Google Maps or not. In line
-            with our hypothesis, most users said that they preferred being notified that they were about to leave the application.</p>
-    </div>
     <div class='container'>
         <div class="row justify-content-md-center">
             <div class=col>
                 <!-- Use any element to open the sidenav -->
                 <div onclick="openNav()">
-                    <div class="navi fas fa-bars fa-2x"></div>
+                    <a class="navi fas fa-bars fa-2x" href='javascript:void(0)' aria-label="navigation link"></a>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" aria-label = 'close navigation' onclick="closeNav()">&times;</a>
+                    <a class='currentpage' href=index.html>Home</a>
+                    <a href=about.html>About Me</a>
+                    <a href=koreanmall.html>Koreanmall</a>
+                    <a href=dining.html>Michigan Dining App</a>
+                    <a href=esports.html>Women in Esports Infographic</a>
                 </div>
             </div>
+        
 
-            <div class="col-md-auto">
+            <div class="col-md-auto" >
                 <h1>
-                    Katarina Mazanka
-                </h1>
+                Katarina Mazanka
+            </h1>
             </div>
 
 
             <!--<img src = "images/koreaimg2.jpg" alt = "Image of Korea"/>
-                                            <img src = "images/IMG_0782.jpg" alt = "Image of Korea"/> !-->
+                            <img src = "images/IMG_0782.jpg" alt = "Image of Korea"/> !-->
             <div class=col>
                 <div class="text-right">
                     <a href="https://www.linkedin.com/in/katarina-mazanka-658613143/" aria-label="linkedin link">
@@ -79,47 +72,55 @@
                 </div>
 
             </div>
-        </div>
-    </header>
-<div role = 'main'>
+        
+    </div>
+    </div>
+        </header>
+    <div role='main'>
         <div class="hh3 row justify-content-md-center dining1">
             <div>
-                
-                    Michigan Dining App
-                
-                
+
+                Michigan Dining App
+
+
             </div>
         </div>
         <div class="col2 main">
-                <p >During my Winter 2018 semester I was paired with a group of other students to analyze the usability of the Dining
-                    portion of the Michigan App. Throughout this process we conducted user tests and interviews, administered surveys,
-                    and created user personas to identify the key problems with the Dining App. In the end we focused on the lack
-                    of fluidity in the application and conducted A/B testing on the Location aspect using paper prototypes that tested
-                    the ability for users to decide if they wanted to leave the Michigan App to go to Google Maps or not. In line
-                    with our hypothesis, most users said that they preferred being notified that they were about to leave the application.</p>
-            </div>
+            <p>During my Winter 2018 semester I was paired with a group of other students to analyze the usability of
+                the Dining
+                portion of the Michigan App. Throughout this process we conducted user tests and interviews,
+                administered surveys,
+                and created user personas to identify the key problems with the Dining App. In the end we focused on
+                the lack
+                of fluidity in the application and conducted A/B testing on the Location aspect using paper prototypes
+                that tested
+                the ability for users to decide if they wanted to leave the Michigan App to go to Google Maps or not.
+                In line
+                with our hypothesis, most users said that they preferred being notified that they were about to leave
+                the application.</p>
+        </div>
         <div class="row aboutme">
             <div class="col-md-6">
-                <img id="dine1" class="imagepage" src="images/Interaction-Map.jpg" alt="Image of Katarina" />
+                <img id="dine1" class="imagepage" src="images/Interaction-Map.jpg" alt="Image of Interaction Map" />
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <img id="dine2" class="imagepage" src="images/IMG_0317(1).jpeg" alt="Image of Katarina" />
+                <img id="dine2" class="imagepage" src="images/IMG_0317(1).jpeg" alt="Image Card Sort" />
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <img id="dine3" class="imagepage" src="images/20180130_093848.jpg" alt="Image of Katarina" />
+                <img id="dine3" class="imagepage" src="images/20180130_093848.jpg" alt="Image of Low-fidelity Interaction Map" />
             </div>
         </div>
     </div>
-</div>
-<footer>
-    <div class="footer">
-        <p>Contact: katmazan@umich.edu</p>
-    </div>
-</footer>
+    
+    <footer>
+        <div class="footer">
+            <p>Contact: katmazan@umich.edu</p>
+        </div>
+    </footer>
     <script>
         function magnify(imgID, zoom) {
             var img, glass, w, h, bw;

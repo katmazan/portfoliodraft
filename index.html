@@ -36,22 +36,24 @@
     </script>
     <a class="skip-main" href="#main">Skip to main content</a>
     <header>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a class='currentpage' href=index.html>Home</a>
-            <a href=about.html>About Me</a>
-            <a href=koreanmall.html>Koreanmall</a>
-            <a href=dining.html>Michigan Dining App</a>
-            <a href=esports.html>Women in Esports Infographic</a>
-        </div>
+        
         <div class='container'>
             <div class="row justify-content-md-center">
                 <div class=col>
                     <!-- Use any element to open the sidenav -->
                     <div onclick="openNav()">
-                        <div class="navi fas fa-bars fa-2x"></div>
+                        <a class="navi fas fa-bars fa-2x" href='javascript:void(0)' aria-label="navigation link"></a>
+                    </div>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" aria-label = 'close navigation' class="closebtn" onclick="closeNav()">&times; </a>
+                        <a class='currentpage' href=index.html>Home</a>
+                        <a href=about.html>About Me</a>
+                        <a href=koreanmall.html>Koreanmall</a>
+                        <a href=dining.html>Michigan Dining App</a>
+                        <a href=esports.html>Women in Esports Infographic</a>
                     </div>
                 </div>
+            
 
                 <div class="col-md-auto" >
                     <h1>
@@ -70,9 +72,11 @@
                     </div>
 
                 </div>
-            </div>
+            
+        </div>
+        </div>
             </header>
-            <div id = 'main'class="hh2 centerpiece d-flex justify-content-center align-items-center" >
+            <div id = 'main' class="hh2 centerpiece d-flex justify-content-center align-items-center" >
 
                 <div role = 'main'>
                 UX Designer | UX Researcher
@@ -81,7 +85,7 @@
 
             </div>
 
-        </div>
+        
         <footer>
         <div class="footer">
             <p>Contact: katmazan@umich.edu</p>
