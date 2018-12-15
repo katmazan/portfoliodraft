@@ -80,8 +80,8 @@ i{
 	
 }
 .navi{
-	color: #575DD6;
-	font-size: 25px;
+	color: #575DD6 !important;
+	font-size: 25px !important;
 	/*padding-top: 45px;
 	padding-left: 100px;*/
 }
