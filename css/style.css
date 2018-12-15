@@ -56,10 +56,10 @@ li{
 	color:black;
 	margin:15px
 }
-.hh1{
-	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 30px;
-	color: #575DD6E8;
+h1{
+	font-family: 'Alegreya Sans', sans-serif !important;
+	font-size: 30px!important;
+	color: #575DD6E8!important;
 }
 .hh2{
 	font-family: 'Alegreya Sans', sans-serif;
